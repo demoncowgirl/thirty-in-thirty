@@ -18,6 +18,11 @@ gulp.task('copycss', function() {
 		.pipe(gulp.dest('dist/css/'))
 });
 
+gulp.task('copyjs', function() {
+	return gulp.src('app/*.js')
+		.pipe(gulp.dest('dist/'))
+});
+
 // function to change sass code to css
 gulp.task('sass', function() {
 	return gulp.src('app/scss/*.scss')
@@ -26,7 +31,11 @@ gulp.task('sass', function() {
 });
 
 gulp.task('watch', function() {
-	gulp.watch('app/*', ['copyhtml', 'copyimages', 'copycss', 'sass'])
+	gulp.watch('app/*.+(htm|html)', gulp.series('copyhtml'));
+  gulp.watch('app/**/*.css', gulp.series('copycss'));
+  gulp.watch('app/**/*.scss', gulp.series('sass'));
+  gulp.watch('app/**/*.+(jpg|jpeg|png|gif)', gulp.series('copyimages'));
+
 });
 
 gulp.task('default', function(callback) {
