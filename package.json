@@ -1,9 +1,6 @@
 {
   "name": "30in30",
   "version": "1.0.0",
-  "engines": {
-    "node": "10.15.2"
-  },
   "description": "",
   "main": "index.js",
   "scripts": {
