@@ -19,7 +19,7 @@
   "devDependencies": {
     "boostrap": "^2.0.0",
     "express": "^4.16.4",
-    "gulp": "^4.0.1",
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "jsquery": "^1.1.1",
     "popper.js": "^1.15.0",
