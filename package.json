@@ -2,6 +2,9 @@
   "name": "30in30",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,19 +20,20 @@
   "homepage": "https://github.com/demoncowgirl/thirty-in-thirty#readme",
   "devDependencies": {
     "boostrap": "^2.0.0",
+    "jsquery": "^1.1.1",
+    "popper.js": "^1.15.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "composer": "^4.1.0",
     "express": "^4.16.4",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
-    "jsquery": "^1.1.1",
-    "popper.js": "^1.15.0",
-    "run-sequence": "^2.2.1",
-    "sass": "^1.20.1"
-  },
-  "dependencies": {
-    "composer": "^4.1.0",
     "jquery": "^3.4.1",
     "lodash": "^4.17.11",
     "node-sass": "^4.12.0",
+    "run-sequence": "^2.2.1",
+    "sass": "^1.20.1",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.2"
   },
