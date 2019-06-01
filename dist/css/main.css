@@ -25,11 +25,15 @@ h6 {
 .card-deck {
   padding: 15px;
 }
+
 .card-title {
-  background: rgba(205,192,176);
-  padding: 5px;
+  background: rgb(86,61,124,0.5);
+  /* background: rgba(205,192,176); */
+  padding: 10px;
   border-radius: 5px 5px;
   font-weight: 800;
+  margin: 0px;
+
 }
 
 .card-subtitle {
@@ -38,7 +42,7 @@ h6 {
 }
 
 .card-text {
-  padding: 5px;
+  margin-bottom: 0px;
 }
 
 .card {
@@ -49,7 +53,24 @@ h6 {
 	box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   max-width: 300px;
   min-width: 300px;
-  height: 180px;
+  height: 240px;
+  padding: 5px;
+
+}
+
+.card-block {
+  padding: 10px;
+  height: 140px;
+}
+
+img {
+  height: 140px;
+  width: auto;
+}
+
+.image {
+  margin-top: 10px;
+  text-align: center;
 }
 
 [class*="row"] {
@@ -65,7 +86,8 @@ h6 {
 	width: 100%;
 }
 
-a {
-  position: absolute;
-  margin-bottom: 2px;
+.position-bottom a {
+  position: sticky;
+  margin-left: 10px;
+  margin-bottom: 15px;
 }
