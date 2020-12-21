@@ -18,17 +18,19 @@
     "url": "https://github.com/demoncowgirl/thirty-in-thirty/issues"
   },
   "homepage": "https://github.com/demoncowgirl/thirty-in-thirty#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "run-sequence": "^2.2.1",
+    "watch": "^1.0.2"
+  },
   "dependencies": {
     "bootstrap": "^4.3.1",
     "composer": "^4.1.0",
     "express": "^4.17.1",
-    "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2",
-    "jquery": "^3.4.1",
-    "lodash": "^4.17.11",
-    "node-sass": "^4.12.0",
-    "run-sequence": "^2.2.1",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "node-sass": "^4.14.1",
     "sass": "^1.20.3",
     "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2"
