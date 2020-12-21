@@ -21,6 +21,7 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
+    "heroku": "^7.47.6",
     "run-sequence": "^2.2.1",
     "watch": "^1.0.2"
   },
